@@ -1,0 +1,27 @@
+/**************************************************************************/
+/*PLOT MACRO*/
+/**************************************************************************/
+#chart {
+	width: 100%; 
+	height: 50%;
+	border: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+.chart-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chart-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
