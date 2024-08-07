@@ -17,8 +17,8 @@ if (ini_get('date.timezone')) {
 }
 
 // GET REQUEST 
-$type = $_GET['type'] ?? '1';
-$basin = $_GET['basin'] ?? '1';
+$type = $_GET['type'] ?? null;
+$basin = $_GET['basin'] ?? null;
 ?>
 
 <!-- Include Moment.js -->
@@ -439,8 +439,4 @@ if (typeof timeSeriesData !== 'undefined' && Object.keys(timeSeriesData).length 
     console.error("timeSeriesData is not defined or empty.");
 }
 </script>
-<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <?php db_disconnect($db); ?>
-
-<!-- version 4. adjusted y axis min and max -->
-<!-- version 5. adjust date time x axis -->
