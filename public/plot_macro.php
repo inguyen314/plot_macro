@@ -108,7 +108,7 @@ $current_date_time   = date("Y-m-d H:i", $time);
                             <!--APP START-->
                             <div class="box-usace">
                                 <h2 class="box-header-striped">
-                                    <span class="titleLabel title"><?php echo strstr($cwms_ts_id, '.', true); ?></span>
+                                    <span class="titleLabel title"><?php echo strstr($cwms_ts_id, '.', true) . " - [DISCONTINUED]"; ?></span>
                                     <span class="rss"></span>
                                 </h2>
                                 <div class="box-content" style="background-color:white;margin:auto">
